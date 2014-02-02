@@ -4,7 +4,7 @@ Package.describe({
   summary: "Twitter API Client"
 });
 
-Npm.depends({twit: "1.1.9"});
+Npm.depends({twit: "1.1.12"});
 
 Package.on_use(function (api) {
   if(api.export) {
